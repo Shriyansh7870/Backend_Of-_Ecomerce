@@ -31,5 +31,6 @@ const userSchema = mongoose.Schema({
   },
 });
 
-const Product = mongoose.model("Product", userSchema);
-module.exports = Product;
+const Product = mongoose.model("data", userSchema);
+const shriyansh = mongoose.model("data2", userSchema);
+module.exports = { Product, shriyansh };

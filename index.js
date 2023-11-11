@@ -4,12 +4,13 @@ const cors = require("cors");
 const allcomponet = require("./Componnet/allcomponent");
 const connection = require("./config/db");
 const port = 4000;
-
+// app.use(express.json());
 app.use(
   cors({
     origin: "*",
   })
 );
+
 app.use("/api", allcomponet);
 
 app.get("/", (req, res) => {

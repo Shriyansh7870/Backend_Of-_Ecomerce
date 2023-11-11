@@ -5,7 +5,7 @@ const global = [
     model: "Rice",
     image:
       "https://www.bigbasket.com/media/uploads/p/xxl/40000750_2-india-gate-basmati-rice-mograbroken.jpg",
-    price: "₹99",
+    price: "99",
     specs: {
       Type: "Basmati Rice",
       Weight: "5 kg",
@@ -20,7 +20,7 @@ const global = [
     model: "Wheat Flour",
     image:
       "https://media.istockphoto.com/id/480241244/photo/bowl-filled-with-wheat-flour.webp?b=1&s=170667a&w=0&k=20&c=6e2VQtpOH6hlaIzWvAn9XsVuJqmigg38XsTgt_EHxDE=",
-    price: "₹49",
+    price: "49",
     specs: {
       Type: "Whole Wheat",
       Weight: "2 kg",
@@ -34,7 +34,7 @@ const global = [
     model: "Cooking Oil",
     image:
       "https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?cs=srgb&dl=pexels-pixabay-33783.jpg&fm=jpg",
-    price: "₹149",
+    price: "149",
     specs: {
       Type: "Sunflower Oil",
       Volume: "1 liter",
@@ -48,7 +48,7 @@ const global = [
     model: "Milk",
     image:
       "https://png.pngtree.com/background/20230425/original/pngtree-almond-milk-in-bottle-and-milk-in-a-glass-picture-image_2477921.jpg",
-    price: "₹29",
+    price: "29",
     specs: {
       Type: "Cow's Milk",
       Volume: "1 liter",
@@ -62,7 +62,7 @@ const global = [
     model: "Eggs",
     image:
       "https://img.freepik.com/free-photo/raw-chicken-eggs-egg-box-white-surface_114579-53521.jpg",
-    price: "₹39",
+    price: "39",
     specs: {
       Type: "Chicken Eggs",
       Quantity: "12 eggs",
@@ -76,7 +76,7 @@ const global = [
     model: "Sugar",
     image:
       "https://t4.ftcdn.net/jpg/03/19/37/75/360_F_319377582_bE83iovSQCRB79zOL2OnV3cOP4jEA7Qb.jpg",
-    price: "₹49",
+    price: "49",
     specs: {
       Type: "Granulated Sugar",
       Weight: "1 kg",
@@ -90,7 +90,7 @@ const global = [
     model: "Tea Leaves",
     image:
       "https://m.media-amazon.com/images/I/81JEU3zZ+fS._AC_UF1000,1000_QL80_.jpg",
-    price: "₹69",
+    price: "69",
     specs: {
       Type: "Black Tea",
       Weight: "250 grams",
@@ -104,7 +104,7 @@ const global = [
     model: "Canned Tomatoes",
     image:
       "https://m.media-amazon.com/images/I/71bhUzqkeRL._AC_UF1000,1000_QL80_.jpg",
-    price: "₹29",
+    price: "29",
     specs: {
       Type: "Whole Peeled Tomatoes",
       Quantity: "400 grams",
@@ -117,7 +117,7 @@ const global = [
     id: "9",
     model: "Pasta",
     image: "https://m.media-amazon.com/images/I/71ImcOHDXSL.jpg",
-    price: "₹39",
+    price: "39",
     specs: {
       Type: "Spaghetti",
       Weight: "500 grams",
@@ -131,7 +131,7 @@ const global = [
     model: "Green Beans",
     image:
       "https://media.istockphoto.com/id/184329392/photo/close-up-of-a-bunch-of-green-beans.webp?b=1&s=170667a&w=0&k=20&c=3TuhlOYqm4aZJMb-7AN9WStKg7MGEA-pWoY7lxpKMMQ=",
-    price: "₹49",
+    price: "49",
     specs: {
       Type: "Fresh Green Beans",
       Weight: "500 grams",
@@ -145,7 +145,7 @@ const global = [
     model: "Cereal",
     image:
       "https://miro.medium.com/v2/resize:fit:1080/1*7THyMkhh6hwf5OiEp9uOvw.jpeg",
-    price: "₹79",
+    price: "79",
     specs: {
       Type: "Honey Oat Cereal",
       Weight: "400 grams",
@@ -159,7 +159,7 @@ const global = [
     model: "Peanut Butter",
     image:
       "https://www.simpleskincare.com/sk-eu/content/dam/brands/kissan/india/2152286-8901030810978.png",
-    price: "₹99",
+    price: "99",
     specs: {
       Type: "Smooth Peanut Butter",
       Weight: "500 grams",
@@ -173,7 +173,7 @@ const global = [
     model: "Cereal",
     image:
       "https://c1.wallpaperflare.com/preview/286/961/265/muesli-bowl-healthy-food.jpg",
-    price: "₹79",
+    price: "79",
     specs: {
       Type: "Honey Oat Cereal",
       Weight: "400 grams",
@@ -187,7 +187,7 @@ const global = [
     model: "Canned Tuna",
     image:
       "https://c8.alamy.com/comp/H0712K/tuna-can-tin-of-flake-chunk-tuna-H0712K.jpg",
-    price: "₹49",
+    price: "49",
     specs: {
       Type: "Chunk Light Tuna",
       Quantity: "185 grams",
@@ -201,7 +201,7 @@ const global = [
     model: "Potato Chips",
     image:
       "https://www.vp-packaging.com/wp-content/uploads/2019/08/potato-chips-packaging-with-VMPET-film-inside.jpg",
-    price: "₹39",
+    price: "39",
     specs: {
       Type: "Classic Salted",
       Weight: "150 grams",
@@ -215,7 +215,7 @@ const global = [
     model: "Orange Juice",
     image:
       "https://img.freepik.com/free-vector/carton-box-with-orange-juice-surrounded-by-citruses-leaves_1268-15516.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais",
-    price: "₹79",
+    price: "79",
     specs: {
       Type: "100% Pure Orange Juice",
       Volume: "1 liter",
@@ -229,7 +229,7 @@ const global = [
     model: "Canned Soup",
     image:
       "https://m.media-amazon.com/images/I/71x6FKidgCL._AC_UF894,1000_QL80_.jpg",
-    price: "₹49",
+    price: "49",
     specs: {
       Type: "Tomato Soup",
       Quantity: "400 grams",
@@ -243,7 +243,7 @@ const global = [
     model: "Chocolate Bar",
     image:
       "https://www.yourboxsolution.com/blog/wp-content/uploads/2020/06/chocolate-bar-packaging-header.jpg",
-    price: "₹29",
+    price: "29",
     specs: {
       Type: "Milk Chocolate",
       Weight: "100 grams",
@@ -257,7 +257,7 @@ const global = [
     model: "Breakfast Cereal",
     image:
       "https://images-cdn.ubuy.co.in/634e6dfba95ed46ce64df672-kelloggs-breakfast-cereal-variety-pack.jpg",
-    price: "₹69",
+    price: "69",
     specs: {
       Type: "Corn Flakes",
       Weight: "500 grams",
@@ -271,7 +271,7 @@ const global = [
     model: "Pasta Sauce",
     image:
       "https://www.tradeindia.com/_next/image/?url=https%3A%2F%2Ftiimg.tistatic.com%2Ffp%2F1%2F007%2F511%2Fspicy-and-tasty-chemical-free-knorr-pizza-pasta-sauce-for-eating-200g-pack--189.jpg&w=750&q=75",
-    price: "₹59",
+    price: "59",
     specs: {
       Type: "Tomato Basil Sauce",
       Volume: "350 grams",
@@ -286,7 +286,7 @@ const global = [
     model: "Acer Aspire 5",
     image:
       "https://static-ecapac.acer.com/media/catalog/product/a/5/a515-58m_nx.khfsi.001.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
-    price: "₹44,999",
+    price: "44,999",
     specs: {
       RAM: "8 GB",
       ROM: "512 GB SSD",
@@ -305,7 +305,7 @@ const global = [
     model: "Dell XPS 13",
     image:
       "https://www.cnet.com/a/img/resize/7e94135ecd41c33f4839173a40cc9049f346db15/hub/2018/03/06/e5a2feca-b999-4255-a631-a59641023af0/fl-dellxps13-cnet-still.jpg?auto=webp&fit=cover&height=482&width=856",
-    price: "₹89,999",
+    price: "89,999",
     specs: {
       RAM: "16 GB",
       ROM: "256 GB SSD",
@@ -323,7 +323,7 @@ const global = [
     type: "dell",
     model: "Dell XPS 13",
     image: "https://m.media-amazon.com/images/I/61OBvwVHtQL.jpg",
-    price: "₹89,999",
+    price: "89,999",
     specs: {
       RAM: "16 GB",
       ROM: "256 GB SSD",
@@ -342,7 +342,7 @@ const global = [
     model: "Dell XPS 13",
     image:
       "https://mysterio.yahoo.com/api/res/1.2/yZMQFGxjHAZWMB7ARIHtzA--/ZHByPTI7dz04NzU7YXBwaWQ9ZW5nYWRnZXQ-/https://s.yimg.com/os/creatr-uploaded-images/2022-07/8a806231-0e9c-11ed-b472-b338ac49ac62.cf.webp",
-    price: "₹89,999",
+    price: "89,999",
     specs: {
       RAM: "16 GB",
       ROM: "256 GB SSD",
@@ -361,7 +361,7 @@ const global = [
     model: "HP Spectre x360",
     image:
       "https://www.shutterstock.com/image-photo/jakarta-indonesia-february-5-2019-260nw-1304548852.jpg",
-    price: "₹79,999",
+    price: "79,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -379,7 +379,7 @@ const global = [
     type: "lenovo",
     model: "Lenovo ThinkPad X1 Carbon",
     image: "https://m.media-amazon.com/images/I/51FOmWwmqaL.jpg",
-    price: "₹89,999",
+    price: "89,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -398,7 +398,7 @@ const global = [
     model: "ASUS ROG Zephyrus G14",
     image:
       "https://onsitego.com/blog/wp-content/uploads/2020/09/ASUS-ROG-Zephyrus-G14-Review.jpg",
-    price: "₹1,29,999",
+    price: "1,29,999",
     specs: {
       RAM: "32 GB",
       ROM: "1 TB SSD",
@@ -417,7 +417,7 @@ const global = [
     model: "Apple MacBook Air",
     image:
       "https://c4.wallpaperflare.com/wallpaper/48/248/995/apple-macbook-laptop-shadow-wallpaper-preview.jpg",
-    price: "₹92,990",
+    price: "92,990",
     specs: {
       RAM: "8 GB",
       ROM: "256 GB SSD",
@@ -435,7 +435,7 @@ const global = [
     type: "Microsoftlaptop",
     model: "Microsoft Surface Laptop 4",
     image: "https://i.ytimg.com/vi/Z2MyXuHstIs/maxresdefault.jpg",
-    price: "₹94,999",
+    price: "94,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -453,7 +453,7 @@ const global = [
     model: "LG Gram 17",
     image:
       "https://i.gadgets360cdn.com/large/Asus_Oled_laptops_launch_1630653088391.jpg",
-    price: "₹1,19,999",
+    price: "1,19,999",
     specs: {
       RAM: "16 GB",
       ROM: "1 TB SSD",
@@ -470,7 +470,7 @@ const global = [
     model: "Dell Laptop Charger",
     image:
       "https://m.media-amazon.com/images/I/51GvWC7uAtL._AC_UF1000,1000_QL80_.jpg",
-    price: "₹999",
+    price: "999",
     specs: {
       "Input Voltage": "100-240V AC",
       "Output Voltage": "19.5V DC",
@@ -486,7 +486,7 @@ const global = [
     model: "HP Laptop Battery",
     image:
       "https://m.media-amazon.com/images/I/61ddDVB6qwL._AC_UF1000,1000_QL80_.jpg",
-    price: "₹1,499",
+    price: "1,499",
     specs: {
       Capacity: "5200mAh",
       Voltage: "10.8V",
@@ -501,7 +501,7 @@ const global = [
     model: "Lenovo ThinkPad L14",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2022/6/QO/PU/XJ/105622681/lenovo-thinkpad-l14-gen-1-2-.jpg",
-    price: "₹59,999",
+    price: "59,999",
     specs: {
       RAM: "8 GB",
       ROM: "256 GB SSD",
@@ -520,7 +520,7 @@ const global = [
     model: "ASUS VivoBook 15",
     image:
       "https://rukminim2.flixcart.com/image/850/1000/jz05rww0/computer/s/5/t/asus-na-laptop-original-imafgrzrfwynmzeg.jpeg?q=90",
-    price: "₹44,999",
+    price: "44,999",
     specs: {
       RAM: "8 GB",
       ROM: "512 GB SSD",
@@ -538,7 +538,7 @@ const global = [
     type: "Microsoftlaptop",
     model: "Microsoft Surface Book 3",
     image: "https://i.gadgets360cdn.com/large/image_1_1582035622506.png",
-    price: "₹1,49,999",
+    price: "1,49,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -557,7 +557,7 @@ const global = [
     model: "HP Envy x360",
     image:
       "https://static1.xdaimages.com/wordpress/wp-content/uploads/2022/11/HP-Envy-x360-13-10-16.jpg",
-    price: "₹74,999",
+    price: "74,999",
     specs: {
       RAM: "16 GB",
       ROM: "1 TB SSD",
@@ -576,7 +576,7 @@ const global = [
     model: "Acer Predator Helios 300",
     image:
       "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1688578763/Croma%20Assets/Computers%20Peripherals/Laptop/Images/272085_0_liscin.png?tr=w-360",
-    price: "₹1,09,999",
+    price: "1,09,999",
     specs: {
       RAM: "32 GB",
       ROM: "512 GB SSD",
@@ -595,7 +595,7 @@ const global = [
     model: "Apple MacBook Pro",
     image:
       "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1685969095/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256605_li76nl.png?tr=w-360",
-    price: "₹1,19,990",
+    price: "1,19,990",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -613,7 +613,7 @@ const global = [
     type: "Asus",
     model: "ASUS ROG Strix G15",
     image: "https://m.media-amazon.com/images/I/81fZmxBbQgL.jpg",
-    price: "₹1,19,999",
+    price: "1,19,999",
     specs: {
       RAM: "16 GB",
       ROM: "1 TB SSD",
@@ -632,7 +632,7 @@ const global = [
     model: "ASUS ZenBook 14",
     image:
       "https://dlcdnwebimgs.asus.com/gain/1adf89fe-897b-4ed8-a491-c56091513407/",
-    price: "₹89,999",
+    price: "89,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -652,7 +652,7 @@ const global = [
     model: "ASUS VivoBook 15",
     image:
       "https://dlcdnwebimgs.asus.com/gain/f5d267ef-9fde-4244-80cc-7413cec40944/",
-    price: "₹54,999",
+    price: "54,999",
     specs: {
       RAM: "8 GB",
       ROM: "256 GB SSD",
@@ -672,7 +672,7 @@ const global = [
     model: "ASUS TUF Gaming A15",
     image:
       "https://images.hindustantimes.com/tech/img/2020/06/10/1600x900/20200528_003630_1591756296188_1591756305393.jpg",
-    price: "₹79,999",
+    price: "79,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -692,7 +692,7 @@ const global = [
     model: "ASUS Chromebook Flip C434",
     image:
       "https://edgeup.asus.com/wp-content/uploads/2019/12/c4343-696x464.jpg",
-    price: "₹49,999",
+    price: "49,999",
     specs: {
       RAM: "8 GB",
       ROM: "128 GB eMMC",
@@ -711,7 +711,7 @@ const global = [
     type: "Asus",
     model: "ASUS ROG Zephyrus G14",
     image: "https://rog.asus.com/media/1578096205427.webp",
-    price: "₹1,29,999",
+    price: "1,29,999",
     specs: {
       RAM: "32 GB",
       ROM: "1 TB SSD",
@@ -730,7 +730,7 @@ const global = [
     type: "lenovo",
     model: "Lenovo Ideapad S340",
     image: "https://m.media-amazon.com/images/I/61Am9MNg3oL.jpg",
-    price: "₹49,999",
+    price: "49,999",
     specs: {
       RAM: "12 GB",
       ROM: "512 GB SSD",
@@ -749,7 +749,7 @@ const global = [
     type: "lenovo",
     model: "Lenovo ThinkPad X1 Carbon",
     image: "https://m.media-amazon.com/images/I/71wJJL7q8nL.jpg",
-    price: "₹1,29,999",
+    price: "1,29,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -768,7 +768,7 @@ const global = [
     model: "Lenovo Yoga C740",
     image:
       "https://m.media-amazon.com/images/I/61bDvi8s8RL._AC_UF1000,1000_QL80_.jpg",
-    price: "₹69,999",
+    price: "69,999",
     specs: {
       RAM: "8 GB",
       ROM: "512 GB SSD",
@@ -787,7 +787,7 @@ const global = [
     type: "lenovo",
     model: "Lenovo Legion 5",
     image: "https://m.media-amazon.com/images/I/61ItfhQmaFL.jpg",
-    price: "₹79,999",
+    price: "79,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -807,7 +807,7 @@ const global = [
     model: "Lenovo Chromebook Duet",
     image:
       "https://m.media-amazon.com/images/I/71TkmfAZTpL._AC_UF1000,1000_QL80_.jpg",
-    price: "₹29,999",
+    price: "29,999",
     specs: {
       RAM: "4 GB",
       ROM: "64 GB eMMC",
@@ -826,7 +826,7 @@ const global = [
     type: "hp",
     model: "HP Envy x360",
     image: "https://m.media-amazon.com/images/I/61t+LjBGkXL.jpg",
-    price: " ₹84,999",
+    price: " 84,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -845,7 +845,7 @@ const global = [
     model: "HP Pavilion 15",
     image:
       "https://m.media-amazon.com/images/I/71r5gZx4u0L._AC_UF1000,1000_QL80_.jpg",
-    price: "₹59,999",
+    price: "59,999",
     specs: {
       RAM: "8 GB",
       ROM: "256 GB SSD",
@@ -863,7 +863,7 @@ const global = [
     type: "hp",
     model: "HP Omen 15",
     image: "https://m.media-amazon.com/images/I/81AAyd-Eb+L.jpg",
-    price: "₹99,999",
+    price: "99,999",
     specs: {
       RAM: "32 GB",
       ROM: "1 TB SSD",
@@ -881,7 +881,7 @@ const global = [
     type: "hp",
     model: "HP Chromebook 14",
     image: "https://m.media-amazon.com/images/I/81l0Biby4cL.jpg",
-    price: "₹34,999",
+    price: "34,999",
     specs: {
       RAM: "4 GB",
       ROM: "64 GB eMMC",
@@ -900,7 +900,7 @@ const global = [
     model: "HP Stream 11",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2022/3/CV/MC/TS/45907665/81wyojox4gl-ac-sl1500-1--500x500.jpg",
-    price: "₹24,999",
+    price: "24,999",
     specs: {
       RAM: "4 GB",
       ROM: "64 GB eMMC",
@@ -918,7 +918,7 @@ const global = [
     type: "hp",
     model: "HP EliteBook 840",
     image: "https://m.media-amazon.com/images/I/6112m6IOqaL.jpg",
-    price: " ₹79,999",
+    price: " 79,999",
     specs: {
       RAM: "16 GB",
       ROM: "512 GB SSD",
@@ -937,7 +937,7 @@ const global = [
     model: "Apple iPhone 13",
     image:
       "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_09142021_inline.jpg.slideshow-xlarge.jpg",
-    price: "₹79,900",
+    price: "79,900",
     specs: {
       RAM: "6 GB",
       ROM: "128 GB",
@@ -957,7 +957,7 @@ const global = [
     type: "iphone",
     model: "Apple iPhone 13 Pro",
     image: "https://doc.iwant.cz/pic/E0UY000501-600-600.jpg",
-    price: "₹1,19,900",
+    price: "1,19,900",
     specs: {
       RAM: "6 GB",
       ROM: "256 GB",
@@ -976,7 +976,7 @@ const global = [
     id: "58",
     type: "iphone",
     model: "Apple iPhone 13 Mini",
-    price: "₹69,900",
+    price: "69,900",
     image:
       "https://cdn.dxomark.com/wp-content/uploads/drafts/post-97844/Apple-iphone-13-mini-featured-image-packshot-review-Recovered-Recovered.jpg",
     specs: {
@@ -999,7 +999,7 @@ const global = [
     type: "iphone",
     image:
       "https://img.giznext.com/assets/model/2/96/apple-iphone-12-bf42db0fa85b24eae7f527a7b5a260.jpg",
-    price: "₹69,900",
+    price: "69,900",
     specs: {
       RAM: "4 GB",
       ROM: "64 GB",
@@ -1020,7 +1020,7 @@ const global = [
     model: "Apple iPhone 12 Pro Max",
     image:
       "https://photos5.appleinsider.com/gallery/38960-74452-iPhone-12-Pro-Max-on-Table-with-Accessories-at-an-Angle-l.jpg",
-    price: "₹1,29,900",
+    price: "1,29,900",
     specs: {
       RAM: "6 GB",
       ROM: "256 GB",
@@ -1039,7 +1039,7 @@ const global = [
     id: "61",
     model: "Apple iPhone SE",
     type: "iphone",
-    price: "₹29,900",
+    price: "29,900",
     image:
       "https://www.91-img.com/gallery_images_uploads/a/4/a4cd5ffe4c9a8bd71731aee7b5541f6ec071653f.jpg?tr=h-630,c-at_max,q-80",
     specs: {
@@ -1060,7 +1060,7 @@ const global = [
     id: "62",
     model: "Apple iPhone 11",
     type: "iphone",
-    price: "₹54,900",
+    price: "54,900",
     image: "https://cdn.mos.cms.futurecdn.net/cMoTNtvMD8wdTYp7Wd56V8.jpg",
     specs: {
       RAM: "4 GB",
@@ -1080,7 +1080,7 @@ const global = [
     id: "63",
     model: "Apple iPhone XR",
     type: "iphone",
-    price: "₹47,900",
+    price: "47,900",
     image:
       "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_red-back_09122018_carousel.jpg.large.jpg",
     specs: {
@@ -1101,7 +1101,7 @@ const global = [
     id: "64",
     model: "Apple iPhone X",
     type: "iphone",
-    price: "₹89,000",
+    price: "89,000",
     image:
       "https://cellbuddy.in/buddy/wp-content/uploads/2022/09/X-Space-grey-2.png",
     specs: {
@@ -1122,7 +1122,7 @@ const global = [
     id: "65",
     model: "Apple iPhone 8",
     type: "iphone",
-    price: "₹39,900",
+    price: "39,900",
     image:
       "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large.jpg",
     specs: {
@@ -1143,7 +1143,7 @@ const global = [
     id: "67",
     type: "vivo",
     model: "Vivo Y16",
-    price: "₹11,990",
+    price: "11,990",
     image:
       "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1671430862596/zip/img/webp/in-section1-kv-mb.jpg.webp",
     specs: {
@@ -1164,7 +1164,7 @@ const global = [
     id: "68",
     type: "vivo",
     model: "Vivo V21",
-    price: "₹24,990",
+    price: "24,990",
     image:
       "https://fdn.gsmarena.com/imgroot/news/21/04/vivo-v21-5g-india-launch-date/-640x500m/gsmarena_004.jpg",
     specs: {
@@ -1185,7 +1185,7 @@ const global = [
     id: "69",
     type: "vivo",
     model: "Vivo Y20",
-    price: "₹13,990",
+    price: "13,990",
     image:
       "https://techatpark.in/wp-content/uploads/2021/01/VIVO-Y20-464-MOP-12735-OP-12535.jpeg",
     specs: {
@@ -1206,7 +1206,7 @@ const global = [
     id: "70",
     type: "vivo",
     model: "Vivo X60 Pro",
-    price: "₹49,990",
+    price: "49,990",
     image:
       "https://www.mobilityindia.com/wp-content/uploads/2021/04/vivo-X60-Pro.png",
     specs: {
@@ -1227,7 +1227,7 @@ const global = [
     id: "71",
     type: "vivo",
     model: "Vivo S1 Pro",
-    price: "₹19,990",
+    price: "19,990",
     image:
       "https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/v/i/vivo_x50_pro_5g_1.png",
     specs: {
@@ -1248,7 +1248,7 @@ const global = [
     id: "72",
     type: "vivo",
     model: "Vivo X50 Pro+",
-    price: "₹49,990",
+    price: "49,990",
     image:
       "https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/v/i/vivo_x50_pro_5g_1.png",
     specs: {
@@ -1269,7 +1269,7 @@ const global = [
     id: "73",
     type: "oneplus",
     model: "OnePlus 9",
-    price: "₹49,999",
+    price: "49,999",
     image:
       "https://www.gizbot.com/images/2021-04/oneplus-9-pro-review_16179572824.jpg",
     specs: {
@@ -1290,7 +1290,7 @@ const global = [
     id: "74",
     type: "oneplus",
     model: "OnePlus Nord 2",
-    price: "₹29,999",
+    price: "29,999",
     image:
       "https://www.ytechb.com/wp-content/uploads/2021/07/OnePlus-Nord-2-Wallpapers.webp",
     specs: {
@@ -1311,7 +1311,7 @@ const global = [
     id: "75",
     type: "oneplus",
     model: "OnePlus 8T",
-    price: "₹42,999",
+    price: "42,999",
     image:
       "https://oasis.opstatics.com/content/dam/oasis/default/product-specs/8t-green.png",
     specs: {
@@ -1332,7 +1332,7 @@ const global = [
     id: "76",
     type: "oneplus",
     model: "OnePlus 8 Pro",
-    price: "₹54,999",
+    price: "54,999",
     image:
       "https://cdn.dxomark.com/wp-content/uploads/medias/post-47840/oneplus8Pro.jpg",
     specs: {
@@ -1353,7 +1353,7 @@ const global = [
     id: "77",
     type: "oneplus",
     model: "OnePlus 7T",
-    price: "₹37,999",
+    price: "37,999",
     image:
       "https://www.digitaltrends.com/wp-content/uploads/2019/09/oneplus-7t-back.jpg?p=1",
     specs: {
@@ -1374,7 +1374,7 @@ const global = [
     id: "78",
     type: "oneplus",
     model: "OnePlus 7 Pro",
-    price: "₹44,999",
+    price: "44,999",
     image:
       "https://www.androidauthority.com/wp-content/uploads/2019/05/OnePlus-7-Pro-phone-angled-on-table-back.jpg",
     specs: {
@@ -1395,7 +1395,7 @@ const global = [
     id: "79",
     model: "OnePlus 6T",
     type: "oneplus",
-    price: "₹37,999",
+    price: "37,999",
     image:
       "https://www.reliancedigital.in/wp-content/uploads/2018/12/oneplus6T-design-1-1.jpg",
     specs: {
@@ -1416,7 +1416,7 @@ const global = [
     id: "80",
     type: "oneplus",
     model: "OnePlus 5T",
-    price: "₹32,999",
+    price: "32,999",
     image:
       "https://cdn.opstatics.com/store/20170907/assets/images/support/support-list/model-specs-list/details/5t-white.png",
     specs: {
@@ -1437,7 +1437,7 @@ const global = [
     id: "81",
     type: "samsung",
     model: "Samsung Galaxy S21",
-    price: "₹69,999",
+    price: "69,999",
     image:
       "https://fdn.gsmarena.com/imgroot/news/21/02/galaxy-s21-deal/-1220x526/gsmarena_001.jpg",
     specs: {
@@ -1458,7 +1458,7 @@ const global = [
     id: "82",
     type: "samsung",
     model: "Samsung Galaxy Note 20 Ultra",
-    price: "₹1,04,999",
+    price: "1,04,999",
     image:
       "https://cdn.dxomark.com/wp-content/uploads/medias/post-62683/samsung-galaxy-note20-ultra-5g-1-1.jpg",
     specs: {
@@ -1479,7 +1479,7 @@ const global = [
     id: "83",
     type: "samsung",
     model: "Samsung Galaxy Note 20 Ultra",
-    price: "₹1,04,999",
+    price: "1,04,999",
     image:
       "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note20-ultra-3.jpg",
     specs: {
@@ -1500,7 +1500,7 @@ const global = [
     id: "84",
     type: "samsung",
     model: "Samsung Galaxy A52",
-    price: "₹23,999",
+    price: "23,999",
     image:
       "https://fdn.gsmarena.com/imgroot/reviews/21/samsung-galaxy-a52/lifestyle/-1024w2/gsmarena_001.jpg",
     specs: {
@@ -1521,7 +1521,7 @@ const global = [
     id: "85",
     type: "samsung",
     model: "Samsung Galaxy M32",
-    price: "₹14,999",
+    price: "14,999",
     image:
       "https://www.91-cdn.com/hub/wp-content/uploads/2021/06/samsung-galaxy-m32-image-feat.jpg",
     specs: {
@@ -1542,7 +1542,7 @@ const global = [
     id: "86",
     type: "samsung",
     model: "Samsung Galaxy S10",
-    price: "₹53,999",
+    price: "53,999",
     image:
       "https://www.gizbot.com/images/2019-02/samsung-galaxy-s10-plus_155107488940.jpg",
     specs: {
@@ -1562,7 +1562,7 @@ const global = [
     category: "clothes",
     id: "87",
     model: "Men's Casual T-Shirt",
-    price: "₹499",
+    price: "499",
     image: "https://images.meesho.com/images/products/280866197/gahde_512.webp",
     specs: {
       Material: "Cotton",
@@ -1576,7 +1576,7 @@ const global = [
     category: "clothes",
     id: "88",
     model: "Women's Floral Maxi Dress",
-    price: "₹899",
+    price: "899",
     image:
       "https://www.alamodelabel.in/cdn/shop/products/image_b61b3060-940c-4b2a-85b6-9349f9f7c9bf_600x.jpg?v=1622811875",
     specs: {
@@ -1591,7 +1591,7 @@ const global = [
     category: "clothes",
     id: "89",
     model: "Men's Slim Fit Jeans",
-    price: "₹799",
+    price: "799",
     image:
       "https://indoshop.in/wp-content/uploads/2019/09/men-slim-fit-jeans-500x500.jpg",
     specs: {
@@ -1606,7 +1606,7 @@ const global = [
     category: "clothes",
     id: "90",
     model: "Women's Workout Leggings",
-    price: "₹599",
+    price: "599",
     image: "https://images.meesho.com/images/products/214348898/ijtgp_512.webp",
     specs: {
       Material: "Spandex",
@@ -1620,7 +1620,7 @@ const global = [
     category: "clothes",
     id: "91",
     model: "Men's Formal Shirt",
-    price: "₹899",
+    price: "899",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2020/10/XC/DL/SO/92086267/men-formal-shirts.jpg",
     specs: {
@@ -1635,7 +1635,7 @@ const global = [
     category: "clothes",
     id: "92",
     model: "Women's Summer Dress",
-    price: "₹649",
+    price: "649",
     image:
       "https://image.made-in-china.com/2f0j00PydTJbrzLlqv/Women-Summer-Fashion-Elastic-Beach-Dress-Floral-Painted-Causal-Dress-Women-s-Suit-2-Pieces-Dresses-Set.webp",
     specs: {
@@ -1650,7 +1650,7 @@ const global = [
     category: "clothes",
     id: "93",
     model: "Men's Cargo Shorts",
-    price: "₹549",
+    price: "549",
     image:
       "https://sslimages.shoppersstop.com/sys-master/images/hd5/h62/14748022636574/206874103_9113_alt1.jpg_2000Wx3000H",
     specs: {
@@ -1665,7 +1665,7 @@ const global = [
     category: "clothes",
     id: "94",
     model: "Women's Sweater",
-    price: "₹799",
+    price: "799",
     image: "https://m.media-amazon.com/images/I/81nvDjL+xjL._AC_UY1100_.jpg",
     specs: {
       Material: "Wool",
@@ -1679,7 +1679,7 @@ const global = [
     category: "clothes",
     id: "95",
     model: "Men's Hooded Jacket",
-    price: "₹1,199",
+    price: "1,199",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2020/10/XM/CO/AZ/115391760/cotton-double-bed-sheets-500x500.jpg",
     specs: {
@@ -1694,7 +1694,7 @@ const global = [
     category: "clothes",
     id: "96",
     model: "Women's Denim Skirt",
-    price: "₹699",
+    price: "699",
     image:
       "https://assets.ajio.com/medias/sys_master/root/20230320/2vEN/6418c020aeb26924e3d1c192/-473Wx593H-469311903-iceblue-MODEL.jpg",
     specs: {
@@ -1709,7 +1709,7 @@ const global = [
     category: "clothes",
     id: "97",
     model: "Men's Chino Pants",
-    price: "₹799",
+    price: "799",
     image:
       "https://5.imimg.com/data5/LT/MD/YE/SELLER-13012241/mens-chinos-trousers-500x500.jpg",
     specs: {
@@ -1724,7 +1724,7 @@ const global = [
     category: "clothes",
     id: "98",
     model: "Women's Cardigan Sweater",
-    price: "₹699",
+    price: "699",
     image: "https://images.meesho.com/images/products/57943293/bz4h2_512.webp",
     specs: {
       Material: "Acrylic",
@@ -1738,7 +1738,7 @@ const global = [
     category: "clothes",
     id: "99",
     model: "Men's Sports T-Shirt",
-    price: "₹499",
+    price: "499",
     image:
       "https://bodymark.in/cdn/shop/products/SP7410-NGREEN_S_1.jpg?v=1674545597",
     specs: {
@@ -1753,7 +1753,7 @@ const global = [
     category: "clothes",
     id: "100",
     model: "Women's Pencil Skirt",
-    price: "₹599",
+    price: "599",
     image:
       "https://i.pinimg.com/originals/78/f9/12/78f912641d5b304dcb1f4b5e5db2d6a1.jpg",
     specs: {
@@ -1768,7 +1768,7 @@ const global = [
     category: "clothes",
     id: "101",
     model: "Men's Plaid Flannel Shirt",
-    price: "₹699",
+    price: "699",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2023/2/OF/PI/DD/185260820/flannel-shirt-500x500.jpg",
     specs: {
@@ -1783,7 +1783,7 @@ const global = [
     category: "clothes",
     id: "102",
     model: "Women's Jumpsuit",
-    price: "₹899",
+    price: "899",
     image:
       "https://imagescdn.planetfashion.in/img/app/product/7/792236-9283686.jpg?auto=format&w=494.40000000000003",
     specs: {
@@ -1798,7 +1798,7 @@ const global = [
     category: "clothes",
     id: "103",
     model: "Men's Cargo Pants",
-    price: "₹749",
+    price: "749",
     image:
       "https://assets.ajio.com/medias/sys_master/root/20230621/JiNv/64927b49d55b7d0c638e9439/-473Wx593H-463983577-grey-MODEL.jpg",
     specs: {
@@ -1815,7 +1815,7 @@ const global = [
     model: "Women's Hooded Sweatshirt",
     image:
       "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/5829332/2018/8/6/01777914-6a34-4c08-88a0-533f38402ffb1533555262903-Roadster-Women-Burgundy-Solid-Hooded-Sweatshirt-621533555261-1.jpg",
-    price: "₹799",
+    price: "799",
     specs: {
       Material: "Cotton",
       Size: "L",
@@ -1828,7 +1828,7 @@ const global = [
     category: "clothes",
     id: "105",
     model: "Men's Denim Jacket",
-    price: "₹1,099",
+    price: "1,099",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2021/1/ZR/EA/AO/122363882/mens-denim-jacket.jpg",
     specs: {
@@ -1843,7 +1843,7 @@ const global = [
     category: "clothes",
     id: "106",
     model: "Women's Wrap Dress",
-    price: "₹699",
+    price: "699",
     image:
       "https://assets.ajio.com/medias/sys_master/root/20230419/uEwV/643fc48f711cf97ba7354bf4/-473Wx593H-441923217-green-MODEL.jpg",
     specs: {
@@ -1858,7 +1858,7 @@ const global = [
     category: "clothes",
     id: "107",
     model: "Boys' Graphic T-Shirt",
-    price: "₹349",
+    price: "349",
     image:
       "https://assets.ajio.com/medias/sys_master/root/20230623/KBuq/6494ca16d55b7d0c63a5b244/-473Wx593H-464447987-white-MODEL.jpg",
     specs: {
@@ -1875,7 +1875,7 @@ const global = [
     model: "Girls' Floral Dress",
     image:
       "https://www.fayonkids.com/cdn/shop/products/fayon-kids-yellow-floral-printed-dress-for-girls-36897391870208.jpg?v=1650348557",
-    price: "₹499",
+    price: "499",
     specs: {
       Material: "Polyester",
       Size: "3-4 Years",
@@ -1888,7 +1888,7 @@ const global = [
     category: "clothes",
     id: "109",
     model: "Boys' Denim Shorts",
-    price: "₹399",
+    price: "399",
     image:
       "https://kiddopanti.com/cdn/shop/files/AW23BJS047-LtWash-a_1600x.jpg?v=1698321401",
     specs: {
@@ -1903,7 +1903,7 @@ const global = [
     category: "clothes",
     id: "110",
     model: "Girls' Leggings",
-    price: "₹299",
+    price: "299",
     image: "https://m.media-amazon.com/images/I/61DrGuULkFL._AC_UY1100_.jpg",
     image: "",
     specs: {
@@ -1918,7 +1918,7 @@ const global = [
     category: "clothes",
     id: "111",
     model: "Boys' Hooded Sweatshirt",
-    price: "₹449",
+    price: "449",
     image:
       "https://images.bestsellerclothing.in/data/JJ/16-june-2022/291257601_g3.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto",
     specs: {
@@ -1933,7 +1933,7 @@ const global = [
     category: "clothes",
     id: "112",
     model: "Boys' Denim Shorts",
-    price: "₹399",
+    price: "399",
     image: "https://images.meesho.com/images/products/270087478/tsjlh_512.jpg",
     specs: {
       Material: "Denim",
@@ -1949,7 +1949,7 @@ const global = [
     model: "Running Shoes",
     image:
       "https://images.unsplash.com/photo-1610969524113-bae462bb3892?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww",
-    price: "₹1,799",
+    price: "1,799",
     specs: {
       Brand: "New Balance",
       Model: "Fresh Foam Arishi V3",
@@ -1964,7 +1964,7 @@ const global = [
     model: "Casual Shoes",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2021/1/KS/WX/SM/8852934/mens-high-fashion-casual-shoes.JPG",
-    price: "₹1,199",
+    price: "1,199",
     specs: {
       Brand: "Vans",
       Model: "Classic Slip-On",
@@ -1979,7 +1979,7 @@ const global = [
     model: "Sports Sandals",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBhrQErpNZgxmsqdiSrl7KIoxzXcdk3GSsIQ&usqp=CAU",
-    price: "₹899",
+    price: "899",
     specs: {
       Brand: "Reebok",
       Model: "Classic Sliders",
@@ -1994,7 +1994,7 @@ const global = [
     model: "Slippers",
     image:
       "https://cdn.pixabay.com/photo/2017/06/17/16/16/amazing-2412614_640.jpg",
-    price: "₹349",
+    price: "349",
     specs: {
       Brand: "Crocs",
       Model: "Classic Clogs",
@@ -2009,7 +2009,7 @@ const global = [
     model: "Hiking Boots",
     image:
       "https://img.freepik.com/premium-photo/hiking-boots-close-up-tourist-walking-trail-italy_522472-7360.jpg",
-    price: "₹2,299",
+    price: "2,299",
     specs: {
       Brand: "Salomon",
       Model: "X Ultra 3 Mid GTX",
@@ -2024,7 +2024,7 @@ const global = [
     model: "Running Shoes",
     image:
       "https://images.unsplash.com/photo-1610969770059-7084269fa3be?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww",
-    price: "₹2,199",
+    price: "2,199",
     specs: {
       Brand: "Saucony",
       Model: "Guide 13",
@@ -2038,7 +2038,7 @@ const global = [
     id: "119",
     model: "Casual Shoes",
     image: "https://images.meesho.com/images/products/115311286/vu1pu_512.webp",
-    price: "₹1,399",
+    price: "1,399",
     specs: {
       Brand: "Converse",
       Model: "Chuck Taylor All Star",
@@ -2052,7 +2052,7 @@ const global = [
     id: "110",
     model: "Sports Sandals",
     image: "https://images.meesho.com/images/products/8158606/e32b1_512.webp",
-    price: "₹799",
+    price: "799",
     specs: {
       Brand: "Nike",
       Model: "Sunray Protect 2",
@@ -2067,7 +2067,7 @@ const global = [
     model: "Hiking Boots",
     image:
       "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2021/03/WaterproofHikingBootsforWomen-1.jpeg",
-    price: "₹2,799",
+    price: "2,799",
     specs: {
       Brand: "Merrell",
       Model: "Moab 2 Mid WP",
@@ -2082,7 +2082,7 @@ const global = [
     model: "uxury Italian Leather ShoesL",
     image:
       "https://rukminim2.flixcart.com/image/1200/1200/km0x5zk0/shoe/z/u/h/10-sfl-12314-burgandy-10-san-frissco-burgundy-original-imagfykshxyc4yvu.jpeg?q=70",
-    price: "₹19,999",
+    price: "19,999",
     specs: {
       Brand: "Gucci",
       Model: "Ace GG Supreme",
@@ -2096,7 +2096,7 @@ const global = [
     id: "217",
     model: "Designer High-Top Sneakers",
     image: "https://cdn.mos.cms.futurecdn.net/sFRhaBuhttQRQoP5PFptEZ.jpg",
-    price: "₹22,999",
+    price: "22,999",
     specs: {
       Brand: "Balenciaga",
       Model: "Triple S",
@@ -2111,7 +2111,7 @@ const global = [
     model: "Handmade Italian Leather Boots",
     image:
       "https://tuccidilusso.com/cdn/shop/articles/Buy_Tucci_di_lusso_Mens_handmade_Luxury_Italian_leather_handcrafted_mens_custom_made_designers_shoes2_345x345@2x.jpg?v=1637335031",
-    price: "₹26,999",
+    price: "26,999",
     specs: {
       Brand: "Berluti",
       Model: "Alessandro Venezia",
@@ -2126,7 +2126,7 @@ const global = [
     model: "Luxury Patent Leather Loafers",
     image:
       "https://rukminim1.flixcart.com/image/850/850/xif0q/shoe/v/c/g/6-1414-sign-app-black-original-imaggtmp3qz5gspu.jpeg?q=20",
-    price: "₹15,999",
+    price: "15,999",
     specs: {
       Brand: "Tom Ford",
       Model: "Wessex",
@@ -2141,7 +2141,7 @@ const global = [
     model: "Signature Red Bottom Pumps",
     image:
       "https://cdn.magzter.com/1598631389/1673425344/articles/SyrJAPWeX1677508678786/HAUTE-HEEL.jpg",
-    price: "₹29,999",
+    price: "29,999",
     specs: {
       Brand: "Christian Louboutin",
       Model: "So Kate",
@@ -2156,7 +2156,7 @@ const global = [
     model: "Handcrafted Leather Oxfords",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2021/6/UX/QM/HQ/23643672/img-6696-500x500.JPG",
-    price: "₹20,999",
+    price: "20,999",
     specs: {
       Brand: "John Lobb",
       Model: "William",
@@ -2171,7 +2171,7 @@ const global = [
     model: "Exotic Crocodile Skin Boots",
     image:
       "https://cdna.lystit.com/520/650/n/photos/dellamoda/e325d83f/mezlan-BROWN-Rx4855f-Shoes-Sport-Exotic-Crocodile-Suede-Leather-Rugged-Boots-mzs3552.jpeg",
-    price: "₹36,999",
+    price: "36,999",
     specs: {
       Brand: "Louis Vuitton",
       Model: "Ultimate Boots",
@@ -2186,7 +2186,7 @@ const global = [
     model: "Luxury Velvet Slippers",
     image:
       "https://image.made-in-china.com/202f0j00KhbgCZvzEocR/Autumn-and-Winter-Ladies-Light-Luxury-Velvet-Floor-Soft-Bottom-Warm-Cotton-Slippers.webp",
-    price: "₹14,999",
+    price: "14,999",
     specs: {
       Brand: "Dolce & Gabbana",
       Model: "Velvet Devotion",
@@ -2201,7 +2201,7 @@ const global = [
     model: "Bespoke Hand-Painted Shoes",
     image:
       "https://i.pinimg.com/474x/f5/c7/30/f5c730106e27fa7d3fe5a394cc3ca1df.jpg",
-    price: "₹49,999",
+    price: "49,999",
     specs: {
       Brand: "Edward Green",
       Model: "Chiswick",
@@ -2216,7 +2216,7 @@ const global = [
     model: "Swarovski Crystal Studded Heels",
     image:
       "https://i.etsystatic.com/8379098/r/il/36a044/3675057111/il_570xN.3675057111_fdck.jpg",
-    price: "₹39,999",
+    price: "39,999",
     specs: {
       Brand: "Jimmy Choo",
       Model: "LANCE",
