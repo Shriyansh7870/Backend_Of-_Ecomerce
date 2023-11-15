@@ -1,13 +1,34 @@
-const { EnterData, EnterData2, datafind2 } = require("../callback/callback");
-const { datafind, Search } = require("../callback/callback");
+const {
+  EnterData,
+  datafind,
+  ImageDatafrom,
+  EnterImageData,
+  addToCart,
+  searchProducts,
+} = require("../callback/callback");
+const { Login, Signup } = require("../function/function");
 const allcomponet = require("express").Router();
+
+/**************************************Data Push************************/
 
 allcomponet.post("/enterdata", EnterData);
 
 allcomponet.get("/datafind", datafind);
-allcomponet.get("/search", Search);
 
-allcomponet.post("/enterdata2", EnterData2);
-allcomponet.get("/datafind2", datafind2);
+/***************************Crousal****************************** */
+
+allcomponet.post("/enterdataimage", EnterImageData);
+allcomponet.get("/imageGet", ImageDatafrom);
+
+/********************************Login*************************** */
+
+allcomponet.post("/register", Signup);
+allcomponet.post("/login", Login);
+
+/**********************************Add To Cart**************** */
+allcomponet.post("/add-to-cart", addToCart);
+
+/****************SerachProduct****** */
+allcomponet.post("/serachProduct", searchProducts);
 
 module.exports = allcomponet;
