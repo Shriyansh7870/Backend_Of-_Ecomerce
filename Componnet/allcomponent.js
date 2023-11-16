@@ -23,7 +23,7 @@ allcomponet.get("/imageGet", ImageDatafrom);
 /********************************Login*************************** */
 
 allcomponet.post("/register", Signup);
-allcomponet.get("/login", Login);
+allcomponet.post("/login", Login);
 
 /**********************************Add To Cart**************** */
 allcomponet.post("/add-to-cart", addToCart);
