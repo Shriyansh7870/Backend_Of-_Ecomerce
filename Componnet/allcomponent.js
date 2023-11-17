@@ -6,7 +6,7 @@ const {
   addToCart,
   searchProducts,
 } = require("../callback/callback");
-const { Login, Signup } = require("../function/function");
+const { register, login } = require("../function/function");
 const allcomponet = require("express").Router();
 
 /**************************************Data Push************************/
@@ -22,13 +22,13 @@ allcomponet.get("/imageGet", ImageDatafrom);
 
 /********************************Login*************************** */
 
-allcomponet.post("/register", Signup);
-allcomponet.post("/login", Login);
+allcomponet.post("/register", register);
+allcomponet.post("/login", login);
 
 /**********************************Add To Cart**************** */
 allcomponet.post("/add-to-cart", addToCart);
 
 /****************SerachProduct****** */
-allcomponet.post("/serachProduct", searchProducts);
+allcomponet.get("/serachProduct", searchProducts);
 
 module.exports = allcomponet;

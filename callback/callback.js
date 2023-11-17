@@ -64,17 +64,53 @@ const addToCart = async (req, res) => {
   }
 };
 
-const searchProducts = async (req, res) => {
-  const query = req.query.q;
+// const searchProducts = async (req, res) => {
+//   const query = req.query;
 
+//   try {
+//     const results = await Product.find({
+//       $or: [
+//         { model: { $regex: query, $options: "i" } },
+//         { specs: { $regex: query, $options: "i" } },
+//       ],
+//     });
+
+//     res.send(results);
+//   } catch (err) {
+//     console.error(err);
+//     res.status(500).send({ error: err });
+//   }
+// };
+// const searchProducts = async (req, res) => {
+//   const query = req.query;
+
+//   try {
+//     const queryString = query.model || "";
+//     const results = await Product.find({
+//       $or: [
+//         { model: { $regex: queryString, $options: "i" } },
+//         { specs: { $regex: queryString, $options: "i" } },
+//         { type: { $regex: queryString, $options: "i" } },
+//       ],
+//     });
+
+//     res.send(results);
+//   } catch (err) {
+//     console.error(err);
+//     res.status(500).send({ error: err });
+//   }
+// };
+
+const searchProducts = async (req, res) => {
   try {
+    const queryString = req.query.query || "";
+
     const results = await Product.find({
       $or: [
-        { model: { $regex: query, $options: "i" } },
-        { specs: { $regex: query, $options: "i" } },
+        { model: { $regex: queryString, $options: "i" } },
+        { specs: { $regex: queryString, $options: "i" } },
+        { type: { $regex: queryString, $options: "i" } },
       ],
-
-      model: { $regex: "Iphone", $options: "i" },
     });
 
     res.send(results);
@@ -83,6 +119,7 @@ const searchProducts = async (req, res) => {
     res.status(500).send({ error: err });
   }
 };
+
 module.exports = {
   EnterData,
   datafind,
