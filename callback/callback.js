@@ -82,12 +82,15 @@ const addToCart = async (req, res) => {
 };
 
 const searchProducts = async (req, res) => {
-  const { type, category, model } = req.query;
+  const { type, category, model, name } = req.query;
 
   const queryObj = {};
 
   if (category) {
     queryObj.category = { $regex: category, $options: "i" };
+  }
+  if (name) {
+    queryObj.name = { $regex: name, $options: "i" };
   }
 
   if (model) {
@@ -99,7 +102,7 @@ const searchProducts = async (req, res) => {
   }
 
   try {
-    const searchedData = await Product.find(queryObj);
+    const searchedData = await Product2.find(queryObj);
     res.send(searchedData);
   } catch (error) {
     console.error("Error fetching data:", error);
