@@ -3,6 +3,7 @@ const global = [
     category: "groceeey",
     id: "1",
     model: "Rice",
+    name: "Rice",
     image:
       "https://www.bigbasket.com/media/uploads/p/xxl/40000750_2-india-gate-basmati-rice-mograbroken.jpg",
     price: "99",
@@ -19,6 +20,7 @@ const global = [
     category: "groceeey",
     id: "2",
     model: "Wheat Flour",
+    name: "Wheat Flor",
     image:
       "https://media.istockphoto.com/id/480241244/photo/bowl-filled-with-wheat-flour.webp?b=1&s=170667a&w=0&k=20&c=6e2VQtpOH6hlaIzWvAn9XsVuJqmigg38XsTgt_EHxDE=",
     price: "49",
@@ -34,6 +36,7 @@ const global = [
     category: "groceeey",
     id: "3",
     model: "Cooking Oil",
+    name: "Cooking Oil",
     image:
       "https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?cs=srgb&dl=pexels-pixabay-33783.jpg&fm=jpg",
     price: "149",
@@ -49,6 +52,7 @@ const global = [
     category: "groceeey",
     id: "4",
     model: "Milk",
+    name: "Milk",
     image:
       "https://png.pngtree.com/background/20230425/original/pngtree-almond-milk-in-bottle-and-milk-in-a-glass-picture-image_2477921.jpg",
     price: "29",
@@ -64,6 +68,7 @@ const global = [
     category: "groceeey",
     id: "5",
     model: "Eggs",
+    name: "Eggs",
     image:
       "https://img.freepik.com/free-photo/raw-chicken-eggs-egg-box-white-surface_114579-53521.jpg",
     price: "39",
@@ -79,6 +84,7 @@ const global = [
     category: "groceeey",
     id: "6",
     model: "Sugar",
+    name: "Sugar",
     image:
       "https://t4.ftcdn.net/jpg/03/19/37/75/360_F_319377582_bE83iovSQCRB79zOL2OnV3cOP4jEA7Qb.jpg",
     price: "49",
@@ -94,6 +100,7 @@ const global = [
     category: "groceeey",
     id: "7",
     model: "Tea Leaves",
+    name: "Tea Leaves",
     image:
       "https://m.media-amazon.com/images/I/81JEU3zZ+fS._AC_UF1000,1000_QL80_.jpg",
     price: "69",
@@ -109,6 +116,7 @@ const global = [
     category: "groceeey",
     id: "8",
     model: "Canned Tomatoes",
+    name: "Canned Tomatoes",
     image:
       "https://m.media-amazon.com/images/I/71bhUzqkeRL._AC_UF1000,1000_QL80_.jpg",
     price: "29",
@@ -124,6 +132,7 @@ const global = [
     category: "groceeey",
     id: "9",
     model: "Pasta",
+    name: "Pasta",
     image: "https://m.media-amazon.com/images/I/71ImcOHDXSL.jpg",
     price: "39",
     quantity: 1,
@@ -138,6 +147,7 @@ const global = [
     category: "groceeey",
     id: "10",
     model: "Green Beans",
+    name: "Green Beans",
     image:
       "https://media.istockphoto.com/id/184329392/photo/close-up-of-a-bunch-of-green-beans.webp?b=1&s=170667a&w=0&k=20&c=3TuhlOYqm4aZJMb-7AN9WStKg7MGEA-pWoY7lxpKMMQ=",
     price: "49",
@@ -153,6 +163,7 @@ const global = [
     category: "groceeey",
     id: "11",
     model: "Cereal",
+    name: "Cereal",
     image:
       "https://miro.medium.com/v2/resize:fit:1080/1*7THyMkhh6hwf5OiEp9uOvw.jpeg",
     price: "79",
@@ -168,6 +179,7 @@ const global = [
     category: "groceeey",
     id: "12",
     model: "Peanut Butter",
+    name: "Peanut Butter",
     image:
       "https://www.simpleskincare.com/sk-eu/content/dam/brands/kissan/india/2152286-8901030810978.png",
     price: "99",
@@ -183,6 +195,7 @@ const global = [
     category: "groceeey",
     id: "13",
     model: "Cereal",
+    name: "Cereal",
     image:
       "https://c1.wallpaperflare.com/preview/286/961/265/muesli-bowl-healthy-food.jpg",
     price: "79",
@@ -198,6 +211,7 @@ const global = [
     category: "groceeey",
     id: "14",
     model: "Canned Tuna",
+    name: "Canned Tuna",
     image:
       "https://c8.alamy.com/comp/H0712K/tuna-can-tin-of-flake-chunk-tuna-H0712K.jpg",
     price: "49",
@@ -213,6 +227,7 @@ const global = [
     category: "groceeey",
     id: "15",
     model: "Potato Chips",
+    name: "Potato Chips",
     image:
       "https://www.vp-packaging.com/wp-content/uploads/2019/08/potato-chips-packaging-with-VMPET-film-inside.jpg",
     price: "39",
@@ -228,6 +243,7 @@ const global = [
     category: "groceeey",
     id: "16",
     model: "Orange Juice",
+    name: "Orange Juice",
     image:
       "https://img.freepik.com/free-vector/carton-box-with-orange-juice-surrounded-by-citruses-leaves_1268-15516.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais",
     price: "79",
@@ -243,6 +259,7 @@ const global = [
     category: "groceeey",
     id: "17",
     model: "Canned Soup",
+    name: "Canned Soup",
     image:
       "https://m.media-amazon.com/images/I/71x6FKidgCL._AC_UF894,1000_QL80_.jpg",
     price: "49",
@@ -258,6 +275,7 @@ const global = [
     category: "groceeey",
     id: "18",
     model: "Chocolate Bar",
+    name: "Chocolate Bar",
     image:
       "https://www.yourboxsolution.com/blog/wp-content/uploads/2020/06/chocolate-bar-packaging-header.jpg",
     price: "29",
@@ -273,6 +291,7 @@ const global = [
     category: "groceeey",
     id: "19",
     model: "Breakfast Cereal",
+    name: "Breakfast Cereal",
     image:
       "https://images-cdn.ubuy.co.in/634e6dfba95ed46ce64df672-kelloggs-breakfast-cereal-variety-pack.jpg",
     price: "69",
@@ -288,6 +307,7 @@ const global = [
     category: "groceeey",
     id: "20",
     model: "Pasta Sauce",
+    name: "Pasta Sauce",
     image:
       "https://www.tradeindia.com/_next/image/?url=https%3A%2F%2Ftiimg.tistatic.com%2Ffp%2F1%2F007%2F511%2Fspicy-and-tasty-chemical-free-knorr-pizza-pasta-sauce-for-eating-200g-pack--189.jpg&w=750&q=75",
     price: "59",
@@ -304,6 +324,7 @@ const global = [
     id: "21",
     type: "Acer",
     model: "Acer Aspire 5",
+    name: "Acer Aspire 5",
     image:
       "https://static-ecapac.acer.com/media/catalog/product/a/5/a515-58m_nx.khfsi.001.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
     price: "44999",
@@ -324,6 +345,7 @@ const global = [
     id: "22",
     type: "dell",
     model: "Dell XPS 13",
+    name: "Dell XPS 13",
     image:
       "https://www.cnet.com/a/img/resize/7e94135ecd41c33f4839173a40cc9049f346db15/hub/2018/03/06/e5a2feca-b999-4255-a631-a59641023af0/fl-dellxps13-cnet-still.jpg?auto=webp&fit=cover&height=482&width=856",
     price: "89999",
@@ -344,6 +366,7 @@ const global = [
     id: "23",
     type: "dell",
     model: "Dell XPS 13",
+    name: "Dell XPS 13",
     image: "https://m.media-amazon.com/images/I/61OBvwVHtQL.jpg",
     price: "89999",
     quantity: 1,
@@ -363,6 +386,7 @@ const global = [
     id: "24",
     type: "dell",
     model: "Dell XPS 13",
+    name: "Dell XPS 13",
     image:
       "https://mysterio.yahoo.com/api/res/1.2/yZMQFGxjHAZWMB7ARIHtzA--/ZHByPTI7dz04NzU7YXBwaWQ9ZW5nYWRnZXQ-/https://s.yimg.com/os/creatr-uploaded-images/2022-07/8a806231-0e9c-11ed-b472-b338ac49ac62.cf.webp",
     price: "89999",
@@ -383,6 +407,7 @@ const global = [
     id: "25",
     type: "hp",
     model: "HP Spectre x360",
+    name: "HP Spectre x360",
     image:
       "https://www.shutterstock.com/image-photo/jakarta-indonesia-february-5-2019-260nw-1304548852.jpg",
     price: "79999",
@@ -403,6 +428,7 @@ const global = [
     id: "26",
     type: "lenovo",
     model: "Lenovo ThinkPad X1 Carbon",
+    name: "Lenovo ThinkPad X1 Carbon",
     image: "https://m.media-amazon.com/images/I/51FOmWwmqaL.jpg",
     price: "89999",
     quantity: 1,
@@ -422,6 +448,7 @@ const global = [
     id: "27",
     type: "Asus",
     model: "ASUS ROG Zephyrus G14",
+    name: "ASUS ROG Zephyrus G14",
     image:
       "https://onsitego.com/blog/wp-content/uploads/2020/09/ASUS-ROG-Zephyrus-G14-Review.jpg",
     price: "129999",
@@ -442,6 +469,7 @@ const global = [
     id: "28",
     type: "Applelaptop",
     model: "Apple MacBook Air",
+    name: "Apple MacBook Air",
     image:
       "https://c4.wallpaperflare.com/wallpaper/48/248/995/apple-macbook-laptop-shadow-wallpaper-preview.jpg",
     price: "92990",
@@ -462,6 +490,7 @@ const global = [
     id: "29",
     type: "Microsoftlaptop",
     model: "Microsoft Surface Laptop 4",
+    name: "Microsoft Surface Laptop 4",
     image: "https://i.ytimg.com/vi/Z2MyXuHstIs/maxresdefault.jpg",
     price: "94999",
     quantity: 1,
@@ -480,6 +509,7 @@ const global = [
     category: "laptop",
     id: "30",
     model: "LG Gram 17",
+    name: "LG Gram 17",
     image:
       "https://i.gadgets360cdn.com/large/Asus_Oled_laptops_launch_1630653088391.jpg",
     price: "119999",
@@ -498,6 +528,7 @@ const global = [
     id: "31",
     type: "charger",
     model: "Dell Laptop Charger",
+    name: "Dell Laptop Charger",
     image:
       "https://m.media-amazon.com/images/I/51GvWC7uAtL._AC_UF1000,1000_QL80_.jpg",
     price: "999",
@@ -515,6 +546,7 @@ const global = [
     id: "32",
     type: "hp",
     model: "HP Laptop Battery",
+    name: "HP Laptop Battery",
     image:
       "https://m.media-amazon.com/images/I/61ddDVB6qwL._AC_UF1000,1000_QL80_.jpg",
     price: "1499",
@@ -531,6 +563,7 @@ const global = [
     id: "33",
     type: "lenovo",
     model: "Lenovo ThinkPad L14",
+    name: "Lenovo ThinkPad L14",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2022/6/QO/PU/XJ/105622681/lenovo-thinkpad-l14-gen-1-2-.jpg",
     price: "59999",
@@ -551,6 +584,7 @@ const global = [
     id: "34",
     type: "Asus",
     model: "ASUS VivoBook 15",
+    name: "ASUS VivoBook 15",
     image:
       "https://rukminim2.flixcart.com/image/850/1000/jz05rww0/computer/s/5/t/asus-na-laptop-original-imafgrzrfwynmzeg.jpeg?q=90",
     price: "44999",
@@ -571,6 +605,7 @@ const global = [
     id: "35",
     type: "Microsoftlaptop",
     model: "Microsoft Surface Book 3",
+    name: "Microsoft Surface Book 3",
     image: "https://i.gadgets360cdn.com/large/image_1_1582035622506.png",
     price: "149999",
     quantity: 1,
@@ -590,6 +625,7 @@ const global = [
     id: "36",
     type: "hp",
     model: "HP Envy x360",
+    name: "HP Envy x360",
     image:
       "https://static1.xdaimages.com/wordpress/wp-content/uploads/2022/11/HP-Envy-x360-13-10-16.jpg",
     price: "74999",
@@ -610,6 +646,7 @@ const global = [
     id: "37",
     type: "Acer",
     model: "Acer Predator Helios 300",
+    name: "Acer Predator Helios 300",
     image:
       "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1688578763/Croma%20Assets/Computers%20Peripherals/Laptop/Images/272085_0_liscin.png?tr=w-360",
     price: "1,09,999",
@@ -630,6 +667,7 @@ const global = [
     id: "38",
     type: "Applelaptop",
     model: "Apple MacBook Pro",
+    name: "Apple MacBook Pro",
     image:
       "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1685969095/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256605_li76nl.png?tr=w-360",
     price: "119990",
@@ -650,6 +688,7 @@ const global = [
     id: "39",
     type: "Asus",
     model: "ASUS ROG Strix G15",
+    name: "ASUS ROG Strix G15",
     image: "https://m.media-amazon.com/images/I/81fZmxBbQgL.jpg",
     price: "119999",
     quantity: 1,
@@ -669,6 +708,7 @@ const global = [
     id: "40",
     type: "Asus",
     model: "ASUS ZenBook 14",
+    name: "ASUS ZenBook 14",
     image:
       "https://dlcdnwebimgs.asus.com/gain/1adf89fe-897b-4ed8-a491-c56091513407/",
     price: "89999",
@@ -690,6 +730,7 @@ const global = [
     id: "41",
     type: "Asus",
     model: "ASUS VivoBook 15",
+    name: "ASUS VivoBook 15",
     image:
       "https://dlcdnwebimgs.asus.com/gain/f5d267ef-9fde-4244-80cc-7413cec40944/",
     price: "54999",
@@ -711,6 +752,7 @@ const global = [
     id: "42",
     type: "Asus",
     model: "ASUS TUF Gaming A15",
+    name: "ASUS TUF Gaming A15",
     image:
       "https://images.hindustantimes.com/tech/img/2020/06/10/1600x900/20200528_003630_1591756296188_1591756305393.jpg",
     price: "79999",
@@ -732,6 +774,7 @@ const global = [
     id: "43",
     type: "Asus",
     model: "ASUS Chromebook Flip C434",
+    name: "ASUS Chromebook Flip C434",
     image:
       "https://edgeup.asus.com/wp-content/uploads/2019/12/c4343-696x464.jpg",
     price: "49999",
@@ -753,6 +796,7 @@ const global = [
     id: "44",
     type: "Asus",
     model: "ASUS ROG Zephyrus G14",
+    name: "ASUS ROG Zephyrus G14",
     image: "https://rog.asus.com/media/1578096205427.webp",
     price: "129999",
     quantity: 1,
@@ -773,6 +817,7 @@ const global = [
     id: "45",
     type: "lenovo",
     model: "Lenovo Ideapad S340",
+    name: "Lenovo Ideapad S340",
     image: "https://m.media-amazon.com/images/I/61Am9MNg3oL.jpg",
     price: "49999",
     quantity: 1,
@@ -793,6 +838,7 @@ const global = [
     id: "46",
     type: "lenovo",
     model: "Lenovo ThinkPad X1 Carbon",
+    name: "Lenovo ThinkPad X1 Carbon",
     image: "https://m.media-amazon.com/images/I/71wJJL7q8nL.jpg",
     price: "129999",
     quantity: 1,
@@ -812,6 +858,7 @@ const global = [
     id: "47",
     type: "lenovo",
     model: "Lenovo Yoga C740",
+    name: "Lenovo Yoga C740",
     image:
       "https://m.media-amazon.com/images/I/61bDvi8s8RL._AC_UF1000,1000_QL80_.jpg",
     price: "69999",
@@ -833,6 +880,7 @@ const global = [
     id: "48",
     type: "lenovo",
     model: "Lenovo Legion 5",
+    name: "Lenovo Legion 5",
     image: "https://m.media-amazon.com/images/I/61ItfhQmaFL.jpg",
     price: "79999",
     quantity: 1,
@@ -853,6 +901,7 @@ const global = [
     id: "49",
     type: "lenovo",
     model: "Lenovo Chromebook Duet",
+    name: "Lenovo Chromebook Duet",
     image:
       "https://m.media-amazon.com/images/I/71TkmfAZTpL._AC_UF1000,1000_QL80_.jpg",
     price: "29999",
@@ -874,6 +923,7 @@ const global = [
     id: "50",
     type: "hp",
     model: "HP Envy x360",
+    name: "HP Envy x360",
     image: "https://m.media-amazon.com/images/I/61t+LjBGkXL.jpg",
     price: " 84999",
     quantity: 1,
@@ -893,6 +943,7 @@ const global = [
     id: "51",
     type: "hp",
     model: "HP Pavilion 15",
+    name: "HP Pavilion 15",
     image:
       "https://m.media-amazon.com/images/I/71r5gZx4u0L._AC_UF1000,1000_QL80_.jpg",
     price: "59999",
@@ -913,6 +964,7 @@ const global = [
     id: "52",
     type: "hp",
     model: "HP Omen 15",
+    name: "HP Omen 15",
     image: "https://m.media-amazon.com/images/I/81AAyd-Eb+L.jpg",
     price: "99999",
     quantity: 1,
@@ -932,6 +984,7 @@ const global = [
     id: "53",
     type: "hp",
     model: "HP Chromebook 14",
+    name: "HP Chromebook 14",
     image: "https://m.media-amazon.com/images/I/81l0Biby4cL.jpg",
     price: "34999",
     quantity: 1,
@@ -951,6 +1004,7 @@ const global = [
     id: "54",
     type: "hp",
     model: "HP Stream 11",
+    name: "HP Stream 11",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2022/3/CV/MC/TS/45907665/81wyojox4gl-ac-sl1500-1--500x500.jpg",
     price: "24999",
@@ -971,6 +1025,7 @@ const global = [
     id: "55",
     type: "hp",
     model: "HP EliteBook 840",
+    name: "HP EliteBook 840",
     image: "https://m.media-amazon.com/images/I/6112m6IOqaL.jpg",
     price: " 79999",
     quantity: 1,
@@ -990,6 +1045,7 @@ const global = [
     id: "56",
     type: "iphone",
     model: "Apple iPhone 13",
+    name: "Apple iPhone 13",
     image:
       "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_09142021_inline.jpg.slideshow-xlarge.jpg",
     price: "79900",
@@ -1012,6 +1068,7 @@ const global = [
     id: "57",
     type: "iphone",
     model: "Apple iPhone 13 Pro",
+    name: "Apple iPhone 13 Pro",
     image: "https://doc.iwant.cz/pic/E0UY000501-600-600.jpg",
     price: "119900",
     quantity: 1,
@@ -1033,6 +1090,7 @@ const global = [
     id: "58",
     type: "iphone",
     model: "Apple iPhone 13 Mini",
+    name: "Apple iPhone 13 Mini",
     price: "69900",
     image:
       "https://cdn.dxomark.com/wp-content/uploads/drafts/post-97844/Apple-iphone-13-mini-featured-image-packshot-review-Recovered-Recovered.jpg",
@@ -1054,6 +1112,7 @@ const global = [
     category: "mobile",
     id: "59",
     model: "Apple iPhone 12",
+    name: "Apple iPhone 12",
     type: "iphone",
     image:
       "https://img.giznext.com/assets/model/2/96/apple-iphone-12-bf42db0fa85b24eae7f527a7b5a260.jpg",
@@ -1077,6 +1136,7 @@ const global = [
     id: "60",
     type: "iphone",
     model: "Apple iPhone 12 Pro Max",
+    name: "Apple iPhone 12 Pro Max",
     image:
       "https://photos5.appleinsider.com/gallery/38960-74452-iPhone-12-Pro-Max-on-Table-with-Accessories-at-an-Angle-l.jpg",
     price: "129900",
@@ -1098,6 +1158,7 @@ const global = [
     category: "mobile",
     id: "61",
     model: "Apple iPhone SE",
+    name: "Apple iPhone SE",
     type: "iphone",
     price: "29900",
     image:
@@ -1120,6 +1181,7 @@ const global = [
     category: "mobile",
     id: "62",
     model: "Apple iPhone 11",
+    name: "Apple iPhone 11",
     type: "iphone",
     price: "54900",
     image: "https://cdn.mos.cms.futurecdn.net/cMoTNtvMD8wdTYp7Wd56V8.jpg",
@@ -1141,6 +1203,7 @@ const global = [
     category: "mobile",
     id: "63",
     model: "Apple iPhone XR",
+    name: "Apple iPhone XR",
     type: "iphone",
     price: "47900",
     image:
@@ -1163,6 +1226,7 @@ const global = [
     category: "mobile",
     id: "64",
     model: "Apple iPhone X",
+    name: "Apple iPhone X",
     type: "iphone",
     price: "89000",
     image:
@@ -1185,6 +1249,7 @@ const global = [
     category: "mobile",
     id: "65",
     model: "Apple iPhone 8",
+    name: "Apple iPhone 8",
     type: "iphone",
     price: "39900",
     image:
@@ -1208,6 +1273,7 @@ const global = [
     id: "67",
     type: "vivo",
     model: "Vivo Y16",
+    name: "Vivo Y16",
     price: "11990",
     image:
       "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1671430862596/zip/img/webp/in-section1-kv-mb.jpg.webp",
@@ -1230,6 +1296,7 @@ const global = [
     id: "68",
     type: "vivo",
     model: "Vivo V21",
+    name: "Vivo V21",
     price: "24990",
     image:
       "https://fdn.gsmarena.com/imgroot/news/21/04/vivo-v21-5g-india-launch-date/-640x500m/gsmarena_004.jpg",
@@ -1252,6 +1319,7 @@ const global = [
     id: "69",
     type: "vivo",
     model: "Vivo Y20",
+    name: "Vivo Y20",
     price: "13990",
     image:
       "https://techatpark.in/wp-content/uploads/2021/01/VIVO-Y20-464-MOP-12735-OP-12535.jpeg",
@@ -1274,6 +1342,7 @@ const global = [
     id: "70",
     type: "vivo",
     model: "Vivo X60 Pro",
+    name: "Vivo X60 Pro",
     price: "49990",
     image:
       "https://www.mobilityindia.com/wp-content/uploads/2021/04/vivo-X60-Pro.png",
@@ -1296,6 +1365,7 @@ const global = [
     id: "71",
     type: "vivo",
     model: "Vivo S1 Pro",
+    name: "Vivo S1 Pro",
     price: "19990",
     image:
       "https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/v/i/vivo_x50_pro_5g_1.png",
@@ -1318,6 +1388,7 @@ const global = [
     id: "72",
     type: "vivo",
     model: "Vivo X50 Pro+",
+    name: "Vivo X50 Pro+",
     price: "49990",
     image:
       "https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/v/i/vivo_x50_pro_5g_1.png",
@@ -1340,6 +1411,7 @@ const global = [
     id: "73",
     type: "oneplus",
     model: "OnePlus 9",
+    name: "OnePlus 9",
     price: "49999",
     image:
       "https://www.gizbot.com/images/2021-04/oneplus-9-pro-review_16179572824.jpg",
@@ -1362,6 +1434,7 @@ const global = [
     id: "74",
     type: "oneplus",
     model: "OnePlus Nord 2",
+    name: "OnePlus Nord 2",
     price: "29999",
     image:
       "https://www.ytechb.com/wp-content/uploads/2021/07/OnePlus-Nord-2-Wallpapers.webp",
@@ -1384,6 +1457,7 @@ const global = [
     id: "75",
     type: "oneplus",
     model: "OnePlus 8T",
+    name: "OnePlus 8T",
     price: "42999",
     image:
       "https://oasis.opstatics.com/content/dam/oasis/default/product-specs/8t-green.png",
@@ -1406,6 +1480,7 @@ const global = [
     id: "76",
     type: "oneplus",
     model: "OnePlus 8 Pro",
+    name: "OnePlus 8 Pro",
     price: "54999",
     image:
       "https://cdn.dxomark.com/wp-content/uploads/medias/post-47840/oneplus8Pro.jpg",
@@ -1428,6 +1503,7 @@ const global = [
     id: "77",
     type: "oneplus",
     model: "OnePlus 7T",
+    name: "OnePlus 7T",
     price: "37999",
     image:
       "https://www.digitaltrends.com/wp-content/uploads/2019/09/oneplus-7t-back.jpg?p=1",
@@ -1450,6 +1526,7 @@ const global = [
     id: "78",
     type: "oneplus",
     model: "OnePlus 7 Pro",
+    name: "OnePlus 7 Pro",
     price: "44999",
     image:
       "https://www.androidauthority.com/wp-content/uploads/2019/05/OnePlus-7-Pro-phone-angled-on-table-back.jpg",
@@ -1471,6 +1548,7 @@ const global = [
     category: "mobile",
     id: "79",
     model: "OnePlus 6T",
+    name: "OnePlus 6T",
     type: "oneplus",
     price: "37999",
     image:
@@ -1494,6 +1572,7 @@ const global = [
     id: "80",
     type: "oneplus",
     model: "OnePlus 5T",
+    name: "OnePlus 5T",
     price: "32999",
     image:
       "https://cdn.opstatics.com/store/20170907/assets/images/support/support-list/model-specs-list/details/5t-white.png",
@@ -1516,6 +1595,7 @@ const global = [
     id: "81",
     type: "samsung",
     model: "Samsung Galaxy S21",
+    name: "Samsung Galaxy S21",
     price: "69999",
     image:
       "https://fdn.gsmarena.com/imgroot/news/21/02/galaxy-s21-deal/-1220x526/gsmarena_001.jpg",
@@ -1538,6 +1618,7 @@ const global = [
     id: "82",
     type: "samsung",
     model: "Samsung Galaxy Note 20 Ultra",
+    name: "Samsung Galaxy Note 20 Ultra",
     price: "104999",
     image:
       "https://cdn.dxomark.com/wp-content/uploads/medias/post-62683/samsung-galaxy-note20-ultra-5g-1-1.jpg",
@@ -1560,6 +1641,7 @@ const global = [
     id: "83",
     type: "samsung",
     model: "Samsung Galaxy Note 20 Ultra",
+    name: "Samsung Galaxy Note 20 Ultra",
     price: "104999",
     image:
       "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note20-ultra-3.jpg",
@@ -1582,6 +1664,7 @@ const global = [
     id: "84",
     type: "samsung",
     model: "Samsung Galaxy A52",
+    name: "Samsung Galaxy A52",
     price: "23999",
     image:
       "https://fdn.gsmarena.com/imgroot/reviews/21/samsung-galaxy-a52/lifestyle/-1024w2/gsmarena_001.jpg",
@@ -1604,6 +1687,7 @@ const global = [
     id: "85",
     type: "samsung",
     model: "Samsung Galaxy M32",
+    name: "Samsung Galaxy M32",
     price: "14999",
     image:
       "https://www.91-cdn.com/hub/wp-content/uploads/2021/06/samsung-galaxy-m32-image-feat.jpg",
@@ -1626,6 +1710,7 @@ const global = [
     id: "86",
     type: "samsung",
     model: "Samsung Galaxy S10",
+    name: "Samsung Galaxy S10",
     price: "53999",
     image:
       "https://www.gizbot.com/images/2019-02/samsung-galaxy-s10-plus_155107488940.jpg",
@@ -1647,6 +1732,7 @@ const global = [
     category: "clothes",
     id: "87",
     model: "Men's Casual T-Shirt",
+    name: "Men's Casual T-Shirt",
     price: "499",
     image: "https://images.meesho.com/images/products/280866197/gahde_512.webp",
     quantity: 1,
@@ -1662,6 +1748,7 @@ const global = [
     category: "clothes",
     id: "88",
     model: "Women's Floral Maxi Dress",
+    name: "Women's Floral Maxi Dress",
     price: "899",
     image:
       "https://www.alamodelabel.in/cdn/shop/products/image_b61b3060-940c-4b2a-85b6-9349f9f7c9bf_600x.jpg?v=1622811875",
@@ -1678,6 +1765,7 @@ const global = [
     category: "clothes",
     id: "89",
     model: "Men's Slim Fit Jeans",
+    name: "Men's Slim Fit Jeans",
     price: "799",
     image:
       "https://indoshop.in/wp-content/uploads/2019/09/men-slim-fit-jeans-500x500.jpg",
@@ -1694,6 +1782,7 @@ const global = [
     category: "clothes",
     id: "90",
     model: "Women's Workout Leggings",
+    name: "Women's Workout Leggings",
     price: "599",
     image: "https://images.meesho.com/images/products/214348898/ijtgp_512.webp",
     quantity: 1,
@@ -1709,6 +1798,7 @@ const global = [
     category: "clothes",
     id: "91",
     model: "Men's Formal Shirt",
+    name: "Men's Formal Shirt",
     price: "899",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2020/10/XC/DL/SO/92086267/men-formal-shirts.jpg",
@@ -1725,6 +1815,7 @@ const global = [
     category: "clothes",
     id: "92",
     model: "Women's Summer Dress",
+    name: "Women's Summer Dress",
     price: "649",
     image:
       "https://image.made-in-china.com/2f0j00PydTJbrzLlqv/Women-Summer-Fashion-Elastic-Beach-Dress-Floral-Painted-Causal-Dress-Women-s-Suit-2-Pieces-Dresses-Set.webp",
@@ -1741,6 +1832,7 @@ const global = [
     category: "clothes",
     id: "93",
     model: "Men's Cargo Shorts",
+    name: "Men's Cargo Shorts",
     price: "549",
     image:
       "https://sslimages.shoppersstop.com/sys-master/images/hd5/h62/14748022636574/206874103_9113_alt1.jpg_2000Wx3000H",
@@ -1757,6 +1849,7 @@ const global = [
     category: "clothes",
     id: "94",
     model: "Women's Sweater",
+    name: "Women's Sweater",
     price: "799",
     image: "https://m.media-amazon.com/images/I/81nvDjL+xjL._AC_UY1100_.jpg",
     quantity: 1,
@@ -1771,7 +1864,8 @@ const global = [
   {
     category: "clothes",
     id: "95",
-    model: "Men's Hooded Jacket",
+    model: "Women's Sweater",
+    name: "Women's Sweater",
     price: "1199",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2020/10/XM/CO/AZ/115391760/cotton-double-bed-sheets-500x500.jpg",
@@ -1788,6 +1882,7 @@ const global = [
     category: "clothes",
     id: "96",
     model: "Women's Denim Skirt",
+    name: "Women's Denim Skirt",
     price: "699",
     image:
       "https://assets.ajio.com/medias/sys_master/root/20230320/2vEN/6418c020aeb26924e3d1c192/-473Wx593H-469311903-iceblue-MODEL.jpg",
@@ -1804,6 +1899,7 @@ const global = [
     category: "clothes",
     id: "97",
     model: "Men's Chino Pants",
+    name: "Men's Chino Pants",
     price: "799",
     image:
       "https://5.imimg.com/data5/LT/MD/YE/SELLER-13012241/mens-chinos-trousers-500x500.jpg",
@@ -1820,6 +1916,7 @@ const global = [
     category: "clothes",
     id: "98",
     model: "Women's Cardigan Sweater",
+    name: "Women's Cardigan Sweater",
     price: "699",
     image: "https://images.meesho.com/images/products/57943293/bz4h2_512.webp",
     quantity: 1,
@@ -1835,6 +1932,7 @@ const global = [
     category: "clothes",
     id: "99",
     model: "Men's Sports T-Shirt",
+    name: "Men's Sports T-Shirt",
     price: "499",
     image:
       "https://bodymark.in/cdn/shop/products/SP7410-NGREEN_S_1.jpg?v=1674545597",
@@ -1851,6 +1949,7 @@ const global = [
     category: "clothes",
     id: "100",
     model: "Women's Pencil Skirt",
+    name: "Women's Pencil Skirt",
     price: "599",
     image:
       "https://i.pinimg.com/originals/78/f9/12/78f912641d5b304dcb1f4b5e5db2d6a1.jpg",
@@ -1867,6 +1966,7 @@ const global = [
     category: "clothes",
     id: "101",
     model: "Men's Plaid Flannel Shirt",
+    name: "Men's Plaid Flannel Shirt",
     price: "699",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2023/2/OF/PI/DD/185260820/flannel-shirt-500x500.jpg",
@@ -1883,6 +1983,7 @@ const global = [
     category: "clothes",
     id: "102",
     model: "Women's Jumpsuit",
+    name: "Women's Jumpsuit",
     price: "899",
     image:
       "https://imagescdn.planetfashion.in/img/app/product/7/792236-9283686.jpg?auto=format&w=494.40000000000003",
@@ -1899,6 +2000,7 @@ const global = [
     category: "clothes",
     id: "103",
     model: "Men's Cargo Pants",
+    name: "Men's Cargo Pants",
     price: "749",
     image:
       "https://assets.ajio.com/medias/sys_master/root/20230621/JiNv/64927b49d55b7d0c638e9439/-473Wx593H-463983577-grey-MODEL.jpg",
@@ -1915,6 +2017,7 @@ const global = [
     category: "clothes",
     id: "104",
     model: "Women's Hooded Sweatshirt",
+    name: "Women's Hooded Sweatshirt",
     image:
       "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/5829332/2018/8/6/01777914-6a34-4c08-88a0-533f38402ffb1533555262903-Roadster-Women-Burgundy-Solid-Hooded-Sweatshirt-621533555261-1.jpg",
     price: "799",
@@ -1931,6 +2034,7 @@ const global = [
     category: "clothes",
     id: "105",
     model: "Men's Denim Jacket",
+    name: "Men's Denim Jacket",
     price: "1099",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2021/1/ZR/EA/AO/122363882/mens-denim-jacket.jpg",
@@ -1947,6 +2051,7 @@ const global = [
     category: "clothes",
     id: "106",
     model: "Women's Wrap Dress",
+    name: "Women's Wrap Dress",
     price: "699",
     image:
       "https://assets.ajio.com/medias/sys_master/root/20230419/uEwV/643fc48f711cf97ba7354bf4/-473Wx593H-441923217-green-MODEL.jpg",
@@ -1963,6 +2068,7 @@ const global = [
     category: "clothes",
     id: "107",
     model: "Boys' Graphic T-Shirt",
+    name: "Boys' Graphic T-Shirt",
     price: "349",
     image:
       "https://assets.ajio.com/medias/sys_master/root/20230623/KBuq/6494ca16d55b7d0c63a5b244/-473Wx593H-464447987-white-MODEL.jpg",
@@ -1979,6 +2085,7 @@ const global = [
     category: "clothes",
     id: "108",
     model: "Girls' Floral Dress",
+    name: "Girls' Floral Dress",
     image:
       "https://www.fayonkids.com/cdn/shop/products/fayon-kids-yellow-floral-printed-dress-for-girls-36897391870208.jpg?v=1650348557",
     price: "499",
@@ -1995,6 +2102,7 @@ const global = [
     category: "clothes",
     id: "109",
     model: "Boys' Denim Shorts",
+    name: "Boys' Denim Shorts",
     price: "399",
     image:
       "https://kiddopanti.com/cdn/shop/files/AW23BJS047-LtWash-a_1600x.jpg?v=1698321401",
@@ -2011,6 +2119,7 @@ const global = [
     category: "clothes",
     id: "110",
     model: "Girls' Leggings",
+    name: "Girls' Leggings",
     price: "299",
     image: "https://m.media-amazon.com/images/I/61DrGuULkFL._AC_UY1100_.jpg",
     image: "",
@@ -2027,6 +2136,7 @@ const global = [
     category: "clothes",
     id: "111",
     model: "Boys' Hooded Sweatshirt",
+    name: "Boys' Hooded Sweatshirt",
     price: "449",
     image:
       "https://images.bestsellerclothing.in/data/JJ/16-june-2022/291257601_g3.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto",
@@ -2043,6 +2153,7 @@ const global = [
     category: "clothes",
     id: "112",
     model: "Boys' Denim Shorts",
+    name: "Boys' Denim Shorts",
     price: "399",
     image: "https://images.meesho.com/images/products/270087478/tsjlh_512.jpg",
     quantity: 1,
@@ -2058,6 +2169,7 @@ const global = [
     category: "footwear",
     id: "113",
     model: "Running Shoes",
+    name: "Running Shoes",
     image:
       "https://images.unsplash.com/photo-1610969524113-bae462bb3892?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww",
     price: "1799",
@@ -2074,6 +2186,7 @@ const global = [
     category: "footwear",
     id: "114",
     model: "Casual Shoes",
+    name: "Casual Shoes",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2021/1/KS/WX/SM/8852934/mens-high-fashion-casual-shoes.JPG",
     price: "1199",
@@ -2090,6 +2203,7 @@ const global = [
     category: "footwear",
     id: "115",
     model: "Sports Sandals",
+    name: "Sports Sandals",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBhrQErpNZgxmsqdiSrl7KIoxzXcdk3GSsIQ&usqp=CAU",
     price: "899",
@@ -2106,6 +2220,7 @@ const global = [
     category: "footwear",
     id: "116",
     model: "Slippers",
+    name: "Slippers",
     image:
       "https://cdn.pixabay.com/photo/2017/06/17/16/16/amazing-2412614_640.jpg",
     price: "349",
@@ -2122,6 +2237,7 @@ const global = [
     category: "footwear",
     id: "117",
     model: "Hiking Boots",
+    name: "Hiking Boots",
     image:
       "https://img.freepik.com/premium-photo/hiking-boots-close-up-tourist-walking-trail-italy_522472-7360.jpg",
     price: "2299",
@@ -2138,6 +2254,7 @@ const global = [
     category: "footwear",
     id: "118",
     model: "Running Shoes",
+    name: "Running Shoes",
     image:
       "https://images.unsplash.com/photo-1610969770059-7084269fa3be?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww",
     price: "2199",
@@ -2154,6 +2271,7 @@ const global = [
     category: "footwear",
     id: "119",
     model: "Casual Shoes",
+    name: "Casual Shoes",
     image: "https://images.meesho.com/images/products/115311286/vu1pu_512.webp",
     price: "1399",
     quantity: 1,
@@ -2169,6 +2287,7 @@ const global = [
     category: "footwear",
     id: "110",
     model: "Sports Sandals",
+    name: "Sports Sandals",
     image: "https://images.meesho.com/images/products/8158606/e32b1_512.webp",
     price: "799",
     quantity: 1,
@@ -2184,6 +2303,7 @@ const global = [
     category: "footwear",
     id: "112",
     model: "Hiking Boots",
+    name: "Hiking Boots",
     image:
       "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2021/03/WaterproofHikingBootsforWomen-1.jpeg",
     price: "2799",
@@ -2199,7 +2319,8 @@ const global = [
   {
     category: "footwear",
     id: "216",
-    model: "uxury Italian Leather ShoesL",
+    model: "Luxury Italian Leather ShoesL",
+    name: "Luxury Italian Leather ShoesL",
     image:
       "https://rukminim2.flixcart.com/image/1200/1200/km0x5zk0/shoe/z/u/h/10-sfl-12314-burgandy-10-san-frissco-burgundy-original-imagfykshxyc4yvu.jpeg?q=70",
     price: "19999",
@@ -2216,6 +2337,7 @@ const global = [
     category: "footwear",
     id: "217",
     model: "Designer High-Top Sneakers",
+    name: "Designer High-Top Sneakers",
     image: "https://cdn.mos.cms.futurecdn.net/sFRhaBuhttQRQoP5PFptEZ.jpg",
     price: "22999",
     quantity: 1,
@@ -2231,6 +2353,7 @@ const global = [
     category: "footwear",
     id: "218",
     model: "Handmade Italian Leather Boots",
+    name: "Handmade Italian Leather Boots",
     image:
       "https://tuccidilusso.com/cdn/shop/articles/Buy_Tucci_di_lusso_Mens_handmade_Luxury_Italian_leather_handcrafted_mens_custom_made_designers_shoes2_345x345@2x.jpg?v=1637335031",
     price: "26999",
@@ -2247,6 +2370,7 @@ const global = [
     category: "footwear",
     id: "219",
     model: "Luxury Patent Leather Loafers",
+    name: "Luxury Patent Leather Loafers",
     image:
       "https://rukminim1.flixcart.com/image/850/850/xif0q/shoe/v/c/g/6-1414-sign-app-black-original-imaggtmp3qz5gspu.jpeg?q=20",
     price: "15999",
@@ -2263,6 +2387,7 @@ const global = [
     category: "footwear",
     id: "220",
     model: "Signature Red Bottom Pumps",
+    name: "Signature Red Bottom Pumps",
     image:
       "https://cdn.magzter.com/1598631389/1673425344/articles/SyrJAPWeX1677508678786/HAUTE-HEEL.jpg",
     price: "29999",
@@ -2279,6 +2404,7 @@ const global = [
     category: "footwear",
     id: "221",
     model: "Handcrafted Leather Oxfords",
+    name: "Handcrafted Leather Oxfords",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2021/6/UX/QM/HQ/23643672/img-6696-500x500.JPG",
     price: "20999",
@@ -2295,6 +2421,7 @@ const global = [
     category: "footwear",
     id: "222",
     model: "Exotic Crocodile Skin Boots",
+    name: "Exotic Crocodile Skin Boots",
     image:
       "https://cdna.lystit.com/520/650/n/photos/dellamoda/e325d83f/mezlan-BROWN-Rx4855f-Shoes-Sport-Exotic-Crocodile-Suede-Leather-Rugged-Boots-mzs3552.jpeg",
     price: "36999",
@@ -2311,6 +2438,7 @@ const global = [
     category: "footwear",
     id: "223",
     model: "Luxury Velvet Slippers",
+    name: "Luxury Velvet Slippers",
     image:
       "https://image.made-in-china.com/202f0j00KhbgCZvzEocR/Autumn-and-Winter-Ladies-Light-Luxury-Velvet-Floor-Soft-Bottom-Warm-Cotton-Slippers.webp",
     price: "14999",
@@ -2327,6 +2455,7 @@ const global = [
     category: "footwear",
     id: "224",
     model: "Bespoke Hand-Painted Shoes",
+    name: "Bespoke Hand-Painted Shoes",
     image:
       "https://i.pinimg.com/474x/f5/c7/30/f5c730106e27fa7d3fe5a394cc3ca1df.jpg",
     price: "49999",
@@ -2343,6 +2472,7 @@ const global = [
     category: "footwear",
     id: "225",
     model: "Swarovski Crystal Studded Heels",
+    name: "Swarovski Crystal Studded Heels",
     image:
       "https://i.etsystatic.com/8379098/r/il/36a044/3675057111/il_570xN.3675057111_fdck.jpg",
     price: "39999",

@@ -1,6 +1,5 @@
 const { global } = require("../Dummydata/dummydata");
-const { Product, Image, Cart } = require("../Model/Model");
-const { ApiFeatures } = require("../callback/SearchItem");
+const { Product, Image, Cart, Product2 } = require("../Model/Model");
 const EnterData = async (req, res) => {
   try {
     const response = await Product.create(global);
@@ -13,6 +12,24 @@ const EnterData = async (req, res) => {
 const datafind = async (req, res) => {
   try {
     const other = await Product.find({});
+    res.send(other);
+  } catch (error) {
+    res.status(500).send({ error: error.message });
+  }
+};
+
+const EnterData2 = async (req, res) => {
+  try {
+    const response = await Product2.create(global);
+    res.send(response);
+  } catch (error) {
+    res.status(500).send({ error: error.message });
+  }
+};
+
+const datafind2 = async (req, res) => {
+  try {
+    const other = await Product2.find({});
     res.send(other);
   } catch (error) {
     res.status(500).send({ error: error.message });
@@ -64,59 +81,29 @@ const addToCart = async (req, res) => {
   }
 };
 
-// const searchProducts = async (req, res) => {
-//   const query = req.query;
-
-//   try {
-//     const results = await Product.find({
-//       $or: [
-//         { model: { $regex: query, $options: "i" } },
-//         { specs: { $regex: query, $options: "i" } },
-//       ],
-//     });
-
-//     res.send(results);
-//   } catch (err) {
-//     console.error(err);
-//     res.status(500).send({ error: err });
-//   }
-// };
-// const searchProducts = async (req, res) => {
-//   const query = req.query;
-
-//   try {
-//     const queryString = query.model || "";
-//     const results = await Product.find({
-//       $or: [
-//         { model: { $regex: queryString, $options: "i" } },
-//         { specs: { $regex: queryString, $options: "i" } },
-//         { type: { $regex: queryString, $options: "i" } },
-//       ],
-//     });
-
-//     res.send(results);
-//   } catch (err) {
-//     console.error(err);
-//     res.status(500).send({ error: err });
-//   }
-// };
-
 const searchProducts = async (req, res) => {
+  const { type, category, model } = req.query;
+
+  const queryObj = {};
+
+  if (category) {
+    queryObj.category = { $regex: category, $options: "i" };
+  }
+
+  if (model) {
+    queryObj.model = { $regex: model, $options: "i" };
+  }
+
+  if (type) {
+    queryObj.type = { $regex: type, $options: "i" };
+  }
+
   try {
-    const queryString = req.query.query || "";
-
-    const results = await Product.find({
-      $or: [
-        { model: { $regex: queryString, $options: "i" } },
-        { specs: { $regex: queryString, $options: "i" } },
-        { type: { $regex: queryString, $options: "i" } },
-      ],
-    });
-
-    res.send(results);
-  } catch (err) {
-    console.error(err);
-    res.status(500).send({ error: err });
+    const searchedData = await Product.find(queryObj);
+    res.send(searchedData);
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    res.status(500).send("Internal Server Error");
   }
 };
 
@@ -127,4 +114,6 @@ module.exports = {
   ImageDatafrom,
   addToCart,
   searchProducts,
+  EnterData2,
+  datafind2,
 };

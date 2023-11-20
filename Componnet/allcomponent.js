@@ -5,6 +5,8 @@ const {
   EnterImageData,
   addToCart,
   searchProducts,
+  EnterData2,
+  datafind2,
 } = require("../callback/callback");
 const { register, login } = require("../function/function");
 const allcomponet = require("express").Router();
@@ -14,6 +16,9 @@ const allcomponet = require("express").Router();
 allcomponet.post("/enterdata", EnterData);
 
 allcomponet.get("/datafind", datafind);
+
+allcomponet.post("/enterdata2", EnterData2);
+allcomponet.get("/datafind2", datafind2);
 
 /***************************Crousal****************************** */
 

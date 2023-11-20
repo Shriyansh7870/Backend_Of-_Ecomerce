@@ -30,6 +30,38 @@ const userSchema = mongoose.Schema({
     Pattern: String,
   },
 });
+const userSchema2 = mongoose.Schema({
+  category: String,
+  id: String,
+  type: String,
+  name: String,
+  model: String,
+  image: String,
+  price: String,
+  quantity: Number,
+  specs: {
+    Model: String,
+    Size: String,
+    Color: String,
+    "Closure Type": "String",
+    Type: String,
+    Weight: String,
+    Brand: String,
+    Variety: String,
+    Packaging: String,
+    RAM: String,
+    ROM: String,
+    expandableMemory: String,
+    display: String,
+    processor: String,
+    graphics: String,
+    operatingSystem: String,
+    battery: String,
+    Material: String,
+    Style: String,
+    Pattern: String,
+  },
+});
 const imageSchema = new mongoose.Schema({
   url: {
     type: String,
@@ -72,6 +104,7 @@ const cartSchema = new mongoose.Schema({
   ],
 });
 
+const Product2 = mongoose.model("data2", userSchema2);
 const Cart = mongoose.model("Cart", cartSchema);
 const Register = mongoose.model("user", userRegister);
 const Image = mongoose.model("Image", imageSchema);
@@ -81,4 +114,5 @@ module.exports = {
   Register,
   Image,
   Cart,
+  Product2,
 };
