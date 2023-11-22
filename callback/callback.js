@@ -82,24 +82,24 @@ const addToCart = async (req, res) => {
 };
 
 const searchProducts = async (req, res) => {
-  const { type, category, model, name } = req.query;
+  const { name } = req.query;
 
   const queryObj = {};
 
-  if (category) {
-    queryObj.category = { $regex: category, $options: "i" };
-  }
+  // if (category) {
+  //   queryObj.category = { $regex: category, $options: "i" };
+  // }
   if (name) {
     queryObj.name = { $regex: name, $options: "i" };
   }
 
-  if (model) {
-    queryObj.model = { $regex: model, $options: "i" };
-  }
+  // if (model) {
+  //   queryObj.model = { $regex: model, $options: "i" };
+  // }
 
-  if (type) {
-    queryObj.type = { $regex: type, $options: "i" };
-  }
+  // if (type) {
+  //   queryObj.type = { $regex: type, $options: "i" };
+  // }
 
   try {
     const searchedData = await Product2.find(queryObj);
