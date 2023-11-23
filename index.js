@@ -35,7 +35,7 @@ app.post("/out/create-checkout-session", async (req, res) => {
     line_items: lineItems,
     mode: "payment",
     success_url: "https://jolly-marzipan-656fc0.netlify.app",
-    cancel_url: "http://localhost:3000/cancel",
+    cancel_url: "https://jolly-marzipan-656fc0.netlify.app/cart",
   });
   res.json({ id: session.id });
 });
